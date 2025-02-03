@@ -1,6 +1,7 @@
 #cajapadre {
     display: flex;
     width: 600px;
+    border: 2px solid black;
 }
 #cajapadre > div {
     height: 145px;
@@ -34,4 +35,7 @@
     font-size: 50px;
     flex: 1 1 300px;
     align-self: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
 }
