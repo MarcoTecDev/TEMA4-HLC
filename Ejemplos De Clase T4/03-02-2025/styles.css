@@ -30,7 +30,8 @@
 #caja-1:hover,
 #caja-2:hover,
 #caja-3:hover,
-#caja-4:hover {
+#caja-4:hover,
+#caja-5:hover {
     font-size: 50px;
     flex: 1 1 300px;
     align-self: center;
