@@ -5,24 +5,33 @@
 #cajapadre > div {
     height: 145px;
     margin: 5px;
+    transition: all 0.5s ease-in-out;
 }
 #caja-1 {
-    max-width: 50px;
     flex: 1;
     background-color: rgb(255, 80, 80);
 }
 
 #caja-2 {
-    flex: 1 1 auto;
+    flex: 1;
     background-color: rgb(123, 123, 255);
 }
 
 #caja-3 {
-    flex: 1 1 auto;
+    flex: 1;
     background-color: rgb(64, 255, 64);
 }
 
 #caja-4 {
-    flex: 1 1 auto;
+    flex: 1;
     background-color: yellow;
+}
+
+#caja-1:hover,
+#caja-2:hover,
+#caja-3:hover,
+#caja-4:hover {
+    font-size: 50px;
+    flex: 1 1 300px;
+    align-self: center;
 }
